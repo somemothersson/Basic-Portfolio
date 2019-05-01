@@ -21,6 +21,7 @@ header{
    
 
 }
+/* Code from tutorial BEGIN - albeit modified for my purposes*/
 header::after{
     content: '';
     display: table;
@@ -80,6 +81,7 @@ nav a:hover::before{
     width: 100%;
 
 }
+/* Code from tutorial END - albeit modified for my purposes*/
 section{
     width: 960px;
     margin: 0 auto;
@@ -106,7 +108,8 @@ h1, hr{
 }
 .gallery {
     display: flex;
-    /* justify-content: center; */
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 .gallery a{
@@ -195,7 +198,7 @@ input[type=submit]:hover {
  
 
 footer{
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     bottom: 0;
     left: 0;
